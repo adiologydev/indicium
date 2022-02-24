@@ -1,0 +1,37 @@
+{
+	"name": "indicium",
+	"version": "0.0.1",
+	"description": "A proof of concept memory based caching database on nodejs",
+	"main": "dist/index.js",
+	"scripts": {
+		"start": "tsc && node dist/index.js",
+		"dev": "node dist/index.ts",
+		"watch": "tsc -w",
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix",
+		"format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AdityaTD/indicium.git"
+	},
+	"keywords": [
+		"cache",
+		"database",
+		"nodejs"
+	],
+	"author": "Aditya Nath Tripathi (adityatripathidelhi@gmail.com)",
+	"license": "Apache-2.0",
+	"bugs": {
+		"url": "https://github.com/AdityaTD/indicium/issues"
+	},
+	"homepage": "https://github.com/AdityaTD/indicium#readme",
+	"devDependencies": {
+		"@types/node": "^17.0.21",
+		"@typescript-eslint/eslint-plugin": "^5.12.1",
+		"@typescript-eslint/parser": "^5.12.1",
+		"eslint": "^8.9.0",
+		"eslint-config-prettier": "^8.4.0",
+		"typescript": "^4.5.5"
+	}
+}
